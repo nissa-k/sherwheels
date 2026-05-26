@@ -1,0 +1,5 @@
+Options -Indexes
+
+<Files auth.php>
+Require all denied
+</Files>

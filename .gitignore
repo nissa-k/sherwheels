@@ -1,0 +1,15 @@
+.env
+
+# folders that can contain user content
+photos/
+uploads/
+
+# dependencies (if later)
+vendor/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.log
