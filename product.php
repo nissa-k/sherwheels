@@ -20,7 +20,7 @@ if (!$produit) {
 
     <div style="display:flex; gap:50px;">
 
-      <img src="assets/img/<?= $produit['image'] ?>" style="width:500px;">
+      <img src="/assets/img/<?= $produit['image'] ?>" style="width:500px;">
 
       <div>
         <h1><?= $produit['nom'] ?></h1>

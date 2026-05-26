@@ -16,7 +16,7 @@ $produits = $stmt->fetchAll();
         <div class="product-card">
 
           <a href="product.php?id=<?= $p['id'] ?>">
-            <img src="assets/img/<?= htmlspecialchars($p['image']) ?>" class="product-img">
+            <img src="/assets/img/<?= htmlspecialchars($p['image']) ?>" class="product-img">
           </a>
           <div class="product-body">
             <h3 class="product-title"><?= htmlspecialchars($p['nom']) ?></h3>
