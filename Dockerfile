@@ -7,6 +7,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
 COPY . /var/www/html/
+COPY .env /var/www/html/.env
 
 WORKDIR /var/www/html/
 
