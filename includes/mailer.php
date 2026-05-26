@@ -20,14 +20,14 @@ function send_reset_email(string $to, string $resetLink): bool
         $mail->isSMTP();
 
         // Serveur Brevo
-        $mail->Host = env('BREVO_HOST');
+        $mail->Host = $_ENV['BREVO_HOST'];
 
         // Authentification
         $mail->SMTPAuth = true;
 
-        $mail->Username = env('BREVO_USERNAME');
+        $mail->Username = $_ENV['BREVO_USERNAME'];
 
-        $mail->Password = env('BREVO_PASSWORD');
+        $mail->Password = $_ENV['BREVO_PASSWORD'];
 
         // Sécurité
         $mail->SMTPSecure = 'tls';
@@ -37,7 +37,7 @@ function send_reset_email(string $to, string $resetLink): bool
 
         // Expéditeur
         $mail->setFrom(
-            env('BREVO_FROM'),
+            $_ENV['BREVO_FROM'],
             'SherWheels Festival'
         );
 
