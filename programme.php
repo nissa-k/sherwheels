@@ -11,12 +11,12 @@ include __DIR__ . '/includes/header.php';
 
   <!-- SAMEDI -->
   <div class="programme-item">
-    <img src="/assets/img/programme/samedi.jpg" alt="Programme samedi">
+    <img src="/assets/img/programme/samedi.JPG" alt="Programme samedi">
   </div>
 
   <!-- DIMANCHE -->
   <div class="programme-item">
-    <img src="/assets/img/programme/dimanche.jpg" alt="Programme dimanche">
+    <img src="/assets/img/programme/dimanche.JPG" alt="Programme dimanche">
   </div>
 
 </div>
