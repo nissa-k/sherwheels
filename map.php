@@ -13,14 +13,15 @@ include __DIR__ . '/includes/header.php';
     </p>
 
     <p>
-      L’aérodrome de Meaux - Esbly est un aérodrome civil,
-      ouvert à la circulation aérienne publique,
-      situé sur la commune d'Isles-lès-Villenoy, à 5 km au sud-ouest de Meaux,
-      en Seine-et-Marne. Il est utilisé pour la pratique d’activités de loisirs et de tourisme.
+      Le Sherwheels Fest’ se déroule en collaboration avec la Mairie d’Isles-lès-Villenoy,
+      sur un espace mêlant zone bétonnée et espaces verts, 
+      idéal pour accueillir passionnés et visiteurs dans une ambiance conviviale. 
+      L’événement naît également d’une collaboration entre l’événement automobile de Vincent Begon et le nôtre, 
+      afin de proposer un rassemblement unique autour de la passion automobile et moto.
     </p>
 
     <p class="muted">
-      Adresse : Aérodrome de Meaux - Esbly, 77450 Isles-lès-Villenoy
+      Adresse : 58 Rue de Meaux, 77450 Isles-lès-Villenoy
     </p>
 
     <!-- IMAGES -->
