@@ -171,14 +171,14 @@ include __DIR__ . '/includes/header.php';
          ces ateliers participatifs favorisent l’échange, 
          l’expérimentation et le développement de nouvelles compétences dans une ambiance conviviale. 
       </p>
-      <h2 id="explanation-title">stands pro</h2>
+      <h2 id="explanation-title">Stands Pro</h2>
       <p class="muted">Découvrez nos stands professionnels et échangez directement
          avec des experts et acteurs du secteur.
           Une occasion privilégiée de rencontrer des professionnels,
           de découvrir leurs services,
           leurs innovations et de créer de nouvelles opportunités de collaboration. 
       </p>
-      <h2 id="explanation-title">masterclass guest</h2>
+      <h2 id="explanation-title">Masterclass Guest</h2>
         <p class="muted">Venez rencontrer nos invités lors de masterclass
          exclusives et profitez de leur expérience et de leur expertise dans leurs domaines
          respectifs. Des personnalités reconnues comme Julien Fébreau, 
