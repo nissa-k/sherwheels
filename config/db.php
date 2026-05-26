@@ -12,8 +12,9 @@ function db(): PDO {
     }
 
     $dsn = sprintf(
-        'mysql:host=%s;dbname=%s;charset=utf8mb4',
+        'mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4',
         DB_HOST,
+        DB_PORT,
         DB_NAME
     );
 
@@ -29,12 +30,15 @@ function db(): PDO {
         $pdo->exec("SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
 
     } catch (PDOException $e) {
+
         if (defined('APP_ENV') && APP_ENV === 'dev') {
             die("Erreur DB : " . $e->getMessage());
         }
 
         error_log($e->getMessage());
+
         http_response_code(500);
+
         exit('Erreur interne serveur');
     }
 
